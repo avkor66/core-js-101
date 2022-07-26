@@ -187,7 +187,6 @@ function findFirstSingleChar(str) {
   const arr = str.split('');
   const tempArr = str.split('');
   const tempArr2 = [];
-  console.log(tempArr);
   let a = false;
   arr.map(() => {
     const temp = tempArr.shift();
